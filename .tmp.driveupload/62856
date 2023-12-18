@@ -1,0 +1,71 @@
+<libraries>
+  <library
+      name="D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+      jars="D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\1eed0600a6e33c008eebfb105a335d00\transformed\out\jars\classes.jar;D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\1eed0600a6e33c008eebfb105a335d00\transformed\out\jars\libs\unity-classes.jar"
+      resolved="Gradle:unityLibrary:unspecified"
+      folder="D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\1eed0600a6e33c008eebfb105a335d00\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="__local_aars__:D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+      jars="D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar"
+      resolved="__local_aars__:D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
+  <library
+      name=":PxrPlatform:@aar"
+      jars="C:\Users\HP\.gradle\caches\transforms-3\d34961dd7ddb9775eec09597e4d40d1c\transformed\PxrPlatform\jars\classes.jar"
+      resolved=":PxrPlatform:"
+      folder="C:\Users\HP\.gradle\caches\transforms-3\d34961dd7ddb9775eec09597e4d40d1c\transformed\PxrPlatform"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name=":pxr_api-release:@aar"
+      jars="C:\Users\HP\.gradle\caches\transforms-3\8a8651db2954bb62a001da9884acc9ae\transformed\pxr_api-release\jars\classes.jar;C:\Users\HP\.gradle\caches\transforms-3\8a8651db2954bb62a001da9884acc9ae\transformed\pxr_api-release\jars\libs\gson-2.8.0.jar;C:\Users\HP\.gradle\caches\transforms-3\8a8651db2954bb62a001da9884acc9ae\transformed\pxr_api-release\jars\libs\pvrjar.jar"
+      resolved=":pxr_api-release:"
+      folder="C:\Users\HP\.gradle\caches\transforms-3\8a8651db2954bb62a001da9884acc9ae\transformed\pxr_api-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name=":tobservicelib:@aar"
+      jars="C:\Users\HP\.gradle\caches\transforms-3\b725ffb279ffe4bf2fadf1d807a368c6\transformed\tobservicelib\jars\classes.jar"
+      resolved=":tobservicelib:"
+      folder="C:\Users\HP\.gradle\caches\transforms-3\b725ffb279ffe4bf2fadf1d807a368c6\transformed\tobservicelib"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+      jars="D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\build\.transforms\bd8129647df1b07176f2bfbc6e45c83d\transformed\out\jars\classes.jar"
+      resolved="Gradle.unityLibrary:xrmanifest.androidlib:unspecified"
+      folder="D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\build\.transforms\bd8129647df1b07176f2bfbc6e45c83d\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+</libraries>

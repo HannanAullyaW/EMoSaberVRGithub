@@ -1,0 +1,25 @@
+<dependencies>
+  <compile
+      roots="D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release">
+    <dependency
+        name="D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release,__local_aars__:D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:PxrPlatform:@aar,:pxr_api-release:@aar,:tobservicelib:@aar,D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:xrmanifest.androidlib::release">
+    <dependency
+        name="D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name=":PxrPlatform:@aar"/>
+    <dependency
+        name=":pxr_api-release:@aar"/>
+    <dependency
+        name=":tobservicelib:@aar"/>
+    <dependency
+        name="D:\unity project\Skripsi2\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+        simpleName="Gradle.unityLibrary:xrmanifest.androidlib"/>
+  </package>
+</dependencies>

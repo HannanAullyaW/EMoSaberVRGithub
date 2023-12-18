@@ -1,0 +1,7 @@
+wait-for-native-debugger=0
+hdr-display-enabled=0
+gc-max-time-slice=3
+xrsdk-pre-init-library=PxrPlatform
+androidStartInFullscreen=1
+androidRenderOutsideSafeArea=1
+build-guid=ce48f190bc4c40dc92f2022c22a52011
