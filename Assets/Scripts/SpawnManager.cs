@@ -7,9 +7,9 @@ public class SpawnManager : MonoBehaviour
     // Start is called before the first frame update
     public GameObject[ ] blockPrefabs; 
     public float spawnPosZ = -3f;
-    private float spawnRangeX= 11;
-    private float spawnInterval = 1.5f;
-    private float startDelay = 2;
+    private float spawnRangeX= 2;
+    private float spawnInterval = 2f;
+    private float startDelay = 3;
     void Start()
     {
         InvokeRepeating("SpawnRandomBlock", startDelay, spawnInterval);

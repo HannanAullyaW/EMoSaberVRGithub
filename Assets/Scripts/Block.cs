@@ -7,7 +7,7 @@ public class Block : MonoBehaviour
 {
     public GameObject particle;
     // Start is called before the first frame update
-    public float speed = 9.0f;
+    public float speed = 1.0f;
     void Start()
     {
         // particle = GetComponent<ParticleSystem>();
