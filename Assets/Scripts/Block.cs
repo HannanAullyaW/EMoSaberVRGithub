@@ -6,18 +6,22 @@ using UnityEngine;
 public class Block : MonoBehaviour
 {
     public GameObject particle;
+    private SpawnManager spawnManager;
+    public int pointValue;
     // Start is called before the first frame update
     public float speed = 1.0f;
     void Start()
     {
         // particle = GetComponent<ParticleSystem>();
+        spawnManager = GameObject.Find("Spawn Manager").GetComponent<SpawnManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.Translate(transform.forward * -speed * Time.deltaTime);
-        Destroy(gameObject,6);
+        Destroy(gameObject, 6);
+        spawnManager.UpdateScore(10);
     }
 
     //     private void OnTriggerEnter(Collider other)
@@ -35,5 +39,6 @@ public class Block : MonoBehaviour
         
         
     }
+
 
 }
