@@ -13,7 +13,7 @@ public class Block : MonoBehaviour
     void Start()
     {
         // particle = GetComponent<ParticleSystem>();
-        spawnManager = GameObject.Find("Spawn Manager").GetComponent<SpawnManager>();
+        spawnManager = GameObject.Find("SpawnManager").GetComponent<SpawnManager>();
     }
 
     // Update is called once per frame
@@ -21,7 +21,7 @@ public class Block : MonoBehaviour
     {
         transform.Translate(transform.forward * -speed * Time.deltaTime);
         Destroy(gameObject, 6);
-        spawnManager.UpdateScore(10);
+        // spawnManager.UpdateScore (10, pointValue);
     }
 
     //     private void OnTriggerEnter(Collider other)

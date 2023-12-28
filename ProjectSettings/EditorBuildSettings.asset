@@ -9,8 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 5216dd8abf0d1364d82f0d41c2901755
   - enabled: 1
+    path: Assets/Scenes/LevelMenu.unity
+    guid: b35a91d4294cbfd429c2ec5d06c9228e
+  - enabled: 1
     path: Assets/Scenes/tes prototipe.unity
     guid: bd15a346406a0534f93cc346bd407817
+  - enabled: 1
+    path: Assets/Scenes/PengaturanMenu.unity
+    guid: 44dab80bf12b49845a3849aa03e0fd0b
+  - enabled: 1
+    path: Assets/Scenes/KeluarMenu.unity
+    guid: ae18ce69d6ee0b84794fe5d308e24fb0
   m_configObjects:
     Unity.XR.PICO.LivePreview.Settings: {fileID: 11400000, guid: b0724eab425ac084ab8d694e52482b31, type: 2}
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 139f2fa4db3be7546b9302da64f77f86, type: 2}
