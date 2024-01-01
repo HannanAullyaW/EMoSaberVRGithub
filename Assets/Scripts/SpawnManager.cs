@@ -9,8 +9,8 @@ public class SpawnManager : MonoBehaviour
     public GameObject[ ] blockPrefabs; 
     public TextMeshProUGUI scoreText;
     private int score;
-    public float spawnPosZ = -3f;
-    private float spawnRangeX= 2;
+    public float spawnPosZ = -10f;
+    private float spawnRangeX = 3;
     private float spawnInterval = 2f;
     private float startDelay = 3;
     void Start()
