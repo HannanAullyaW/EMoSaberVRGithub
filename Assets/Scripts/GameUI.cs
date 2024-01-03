@@ -33,4 +33,13 @@ public class GameUI : MonoBehaviour
       Application.Quit();
    }
 
+   public void PengaturanGame(){
+      SceneManager.LoadScene("PengaturanMenu");
+   }
+
+   public void MainMenu(){
+        SceneManager.LoadScene("MainMenu");
+        Debug.Log("loading..");
+    }
+
 }
