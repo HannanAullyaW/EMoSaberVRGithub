@@ -330,12 +330,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1878807663506482116, guid: 6b453d21a8bfb96469c8d2619a01e971, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1878807663506482116, guid: 6b453d21a8bfb96469c8d2619a01e971, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1086478469}
     - target: {fileID: 1878807663506482116, guid: 6b453d21a8bfb96469c8d2619a01e971, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PengaturanGame
+      value: Pengaturan
+      objectReference: {fileID: 0}
+    - target: {fileID: 1878807663506482116, guid: 6b453d21a8bfb96469c8d2619a01e971, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: PengaturanMenu
       objectReference: {fileID: 0}
     - target: {fileID: 1888320985852556263, guid: 6b453d21a8bfb96469c8d2619a01e971, type: 3}
       propertyPath: m_Name
@@ -434,6 +442,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8475128664702482287, guid: 6b453d21a8bfb96469c8d2619a01e971, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475128664702482287, guid: 6b453d21a8bfb96469c8d2619a01e971, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
@@ -447,11 +459,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8475128664702482287, guid: 6b453d21a8bfb96469c8d2619a01e971, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayGame
+      value: SelectMateri
       objectReference: {fileID: 0}
     - target: {fileID: 8475128664702482287, guid: 6b453d21a8bfb96469c8d2619a01e971, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: GameUI, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475128664702482287, guid: 6b453d21a8bfb96469c8d2619a01e971, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: MateriMenu
       objectReference: {fileID: 0}
     - target: {fileID: 8475128664702482287, guid: 6b453d21a8bfb96469c8d2619a01e971, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -493,6 +509,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2151254438776888255, guid: 01832e81cdbaa1d4292a760208780df4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151254438776888255, guid: 01832e81cdbaa1d4292a760208780df4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151254438776888255, guid: 01832e81cdbaa1d4292a760208780df4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151254438776888255, guid: 01832e81cdbaa1d4292a760208780df4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99669933
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151254438776888255, guid: 01832e81cdbaa1d4292a760208780df4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 7.366907e-11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151254438776888255, guid: 01832e81cdbaa1d4292a760208780df4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.081182
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151254438776888255, guid: 01832e81cdbaa1d4292a760208780df4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -5.820766e-11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151254438776888255, guid: 01832e81cdbaa1d4292a760208780df4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -9.313
+      objectReference: {fileID: 0}
     - target: {fileID: 3968602216181434303, guid: 01832e81cdbaa1d4292a760208780df4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.8

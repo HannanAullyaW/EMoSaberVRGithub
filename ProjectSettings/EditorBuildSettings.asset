@@ -9,33 +9,79 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 5216dd8abf0d1364d82f0d41c2901755
   - enabled: 1
-    path: Assets/Scenes/LevelMenu.unity
+    path: Assets/Scenes/KeluarMenu.unity
+    guid: ae18ce69d6ee0b84794fe5d308e24fb0
+  - enabled: 1
+    path: Assets/Scenes/MateriMenu.unity
     guid: b35a91d4294cbfd429c2ec5d06c9228e
-  - enabled: 1
-    path: Assets/Scenes/EasyTerkejutScene.unity
-    guid: 915a4d94e003aa248b537a317307ccba
-  - enabled: 1
-    path: Assets/Scenes/EasySedihScene.unity
-    guid: 9357301b0453df64bb2d05c48a17e4ce
-  - enabled: 1
-    path: Assets/Scenes/EasyMarahScene.unity
-    guid: 82b0d1b1191f60944999a4c7069f37c1
-  - enabled: 1
-    path: Assets/Scenes/EasyTakutScene.unity
-    guid: c686460ffe71a704895fbb568bdfcbd2
-  - enabled: 1
-    path: Assets/Scenes/EasySenangScene.unity
-    guid: c49588f93223f394d989140151c03008
-  - enabled: 1
-    path: Assets/Scenes/tes prototipe.unity
-    guid: bd15a346406a0534f93cc346bd407817
   - enabled: 1
     path: Assets/Scenes/PengaturanMenu.unity
     guid: 44dab80bf12b49845a3849aa03e0fd0b
   - enabled: 1
-    path: Assets/Scenes/KeluarMenu.unity
-    guid: ae18ce69d6ee0b84794fe5d308e24fb0
+    path: Assets/Scenes/tes prototipe.unity
+    guid: bd15a346406a0534f93cc346bd407817
+  - enabled: 1
+    path: Assets/Scenes/Marah/EasyMarahScene.unity
+    guid: 82b0d1b1191f60944999a4c7069f37c1
+  - enabled: 1
+    path: Assets/Scenes/Marah/HardMarahScene.unity
+    guid: 0787ef056c75a7e47acb9633313cecf0
+  - enabled: 1
+    path: Assets/Scenes/Marah/NormalMarahScene.unity
+    guid: 4990e476f685c5a499d79a166943d872
+  - enabled: 1
+    path: Assets/Scenes/Marah/TingkatMarah.unity
+    guid: 3802cb5ff4a602f4dafa9de40f3db523
+  - enabled: 1
+    path: Assets/Scenes/Sedih/EasySedihScene.unity
+    guid: 9357301b0453df64bb2d05c48a17e4ce
+  - enabled: 1
+    path: Assets/Scenes/Sedih/HardSedihScene.unity
+    guid: a48fad938db9cb44f815e816bd199491
+  - enabled: 1
+    path: Assets/Scenes/Sedih/NormalSedihScene.unity
+    guid: ca2e7c2e080020447837b8345f847c69
+  - enabled: 1
+    path: Assets/Scenes/Sedih/TingkatSedih.unity
+    guid: 56386953f49f0614d94c5d1bbd460a3c
+  - enabled: 1
+    path: Assets/Scenes/Senang/EasySenangScene.unity
+    guid: c49588f93223f394d989140151c03008
+  - enabled: 1
+    path: Assets/Scenes/Senang/HardSenangScene.unity
+    guid: ac4d023f6f91f44449c1f633e727666b
+  - enabled: 1
+    path: Assets/Scenes/Senang/NormalSenangScene.unity
+    guid: 4fef76cc266e56949b3ef3e9c1962137
+  - enabled: 1
+    path: Assets/Scenes/Senang/TingkatSenang.unity
+    guid: 7f1129768bcf31b4cbdd7d18d64349a0
+  - enabled: 1
+    path: Assets/Scenes/Takut/EasyTakutScene.unity
+    guid: c686460ffe71a704895fbb568bdfcbd2
+  - enabled: 1
+    path: Assets/Scenes/Takut/HardTakutScene.unity
+    guid: 7c6ff89251013e3458f59fc129c7771c
+  - enabled: 1
+    path: Assets/Scenes/Takut/NormalTakutScene.unity
+    guid: 88467f705bf60a74987aba36e79d19a8
+  - enabled: 1
+    path: Assets/Scenes/Takut/TingkatTakut.unity
+    guid: 15d3abf32073f40429fef0d55799c64e
+  - enabled: 1
+    path: Assets/Scenes/Terkejut/EasyTerkejutScene.unity
+    guid: 915a4d94e003aa248b537a317307ccba
+  - enabled: 1
+    path: Assets/Scenes/Terkejut/HardTerkejutScene.unity
+    guid: cd76c834b7747664691314ec3eb7c675
+  - enabled: 1
+    path: Assets/Scenes/Terkejut/NormalTerkejutScene.unity
+    guid: 298e50636c736bc4fb03d157fd2ef99f
+  - enabled: 1
+    path: Assets/Scenes/Terkejut/TingkatTerkejut.unity
+    guid: b83d7e77b3e18f540a673d52c3e3588c
   m_configObjects:
     Unity.XR.PICO.LivePreview.Settings: {fileID: 11400000, guid: b0724eab425ac084ab8d694e52482b31, type: 2}
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 139f2fa4db3be7546b9302da64f77f86, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4f70f5ea7be9ad44088fcc32b796639d, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: c527f1f5fd1f5d349bc3e0d2c28daa00, type: 2}

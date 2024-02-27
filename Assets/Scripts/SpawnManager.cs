@@ -10,9 +10,9 @@ public class SpawnManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     private int score;
     public float spawnPosZ = -10f;
-    private float spawnRangeX = 3;
-    private float spawnInterval = 2f;
-    private float startDelay = 3;
+    // public float spawnRangeX = 1;
+    private float spawnInterval = 1f;
+    private float startDelay = 1;
     void Start()
     {
 
@@ -31,7 +31,7 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnRandomBlock(){
         int blockIndex = Random.Range(0, blockPrefabs.Length);
-            Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
+            Vector3 spawnPos = new Vector3(Random.Range(2, 6), 0, spawnPosZ);
             Instantiate(blockPrefabs[blockIndex], spawnPos, blockPrefabs[blockIndex].transform.rotation);
             
     }
