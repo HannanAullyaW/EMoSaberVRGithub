@@ -19,7 +19,7 @@ public class Block : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(transform.forward * -speed * Time.deltaTime);
+        transform.Translate(transform.forward * speed * Time.deltaTime);
         Destroy(gameObject, 6);
         // spawnManager.UpdateScore (10, pointValue);
     }
@@ -29,16 +29,22 @@ public class Block : MonoBehaviour
 
     // }
 
-    private void OnCollisionEnter(Collision other) 
-    {
+    // private void OnCollisionEnter(Collision other) 
+    // {
         
-        Destroy(gameObject);
-        GameObject hancur = Instantiate(particle, transform.position, particle.transform.rotation);
-        Destroy(hancur,0.5f);
-        Debug.Log("Hnacr");
+    //     // Destroy(gameObject);
+    //     GameObject hancur = Instantiate(particle, transform.position, particle.transform.rotation);
+    //     // Destroy(hancur,0.5f);
+    //     // Debug.Log("Hnacr");
         
-        
-    }
+    // if (other.gameObject.CompareTag("Marah"))
+    // {
+       
+    //     Destroy(hancur,0.5f);
+    //     Debug.Log("benar");
+    // }
+
+    // }
 
 
 }

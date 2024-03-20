@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Marah
+  - Sedih
+  - Senang
+  - Takut
+  - Terkejut
   layers:
   - Default
   - TransparentFX
