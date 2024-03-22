@@ -24,11 +24,17 @@ public class Marah : MonoBehaviour
     {
         Destroy(other.gameObject);
         GameObject hancur = Instantiate(particle, transform.position, particle.transform.rotation);
-        Destroy(hancur,0.5f);
+        Destroy(hancur,2f);
         Debug.Log("benar");
     }
-    else {
+    else if(!other.gameObject.CompareTag("Marah")){
         Destroy(other.gameObject);
+        GameObject hancur = Instantiate(particle, transform.position, particle.transform.rotation);
+        Destroy(hancur,2f);
+        Debug.Log("salah");
+    }
+    {    
+       
 
     }
 
