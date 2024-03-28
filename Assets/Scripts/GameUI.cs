@@ -8,6 +8,7 @@ public class GameUI : MonoBehaviour
 {
 
    public void PlayGame(string namaScene){
+    Setting.bgMusic.GetComponent<AudioSource>().Stop();
     SceneManager.LoadScene(namaScene);
    }
    public void SelectLevel(string namaScene){
@@ -20,39 +21,13 @@ public class GameUI : MonoBehaviour
     SceneManager.LoadScene(namaScene);
    }
    public void QuitGame(){
-      Debug.Log("Kelyuar");
+      Debug.Log("Keluar");
       Application.Quit();
    }
     public void MainMenu(){
         SceneManager.LoadScene("MainMenu");
         Debug.Log("loading..");
     }
-
-   // public void PlayGame(){
-   //  SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-   // }
-
-   // public void PlayGameSenang(){
-   //  SceneManager.LoadScene("SenangScene");
-   // }
-
-   // public void PlayGameTakut(){
-   //  SceneManager.LoadScene("TakutScene");
-   // }
-
-   // public void PlayGameTerkejut(){
-   //  SceneManager.LoadScene("TerkejutScene");
-   // }
-
-   // public void PlayGameMarah(){
-   //  SceneManager.LoadScene("MarahScene");
-   // }
-
-
-   // public void PengaturanGame(){
-   //    SceneManager.LoadScene("PengaturanMenu");
-   // }
-
   
 
 }

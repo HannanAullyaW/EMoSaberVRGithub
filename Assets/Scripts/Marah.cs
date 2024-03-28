@@ -6,39 +6,22 @@ public class Marah : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject particle;
+    private SpawnManager spawnManager;
+    public int pointValue;
+    // Start is called before the first frame update
+    public float speed = 1.0f;
     void Start()
     {
-        
+         spawnManager = GameObject.Find("SpawnManager").GetComponent<SpawnManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Translate(transform.forward * speed * Time.deltaTime);
+        Destroy(gameObject, 6);
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        
-    if (other.gameObject.CompareTag("Marah"))
-    {
-        Destroy(other.gameObject);
-        GameObject hancur = Instantiate(particle, transform.position, particle.transform.rotation);
-        Destroy(hancur,2f);
-        Debug.Log("benar");
-    }
-    else if(!other.gameObject.CompareTag("Marah")){
-        Destroy(other.gameObject);
-        GameObject hancur = Instantiate(particle, transform.position, particle.transform.rotation);
-        Destroy(hancur,2f);
-        Debug.Log("salah");
-    }
-    {    
-       
-
-    }
-
-    }
 
     
 }
