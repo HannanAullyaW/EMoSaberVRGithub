@@ -8,7 +8,7 @@ public class GameUI : MonoBehaviour
 {
 
    public void PlayGame(string namaScene){
-    Setting.bgMusic.GetComponent<AudioSource>().Stop();
+    BackgroundMusic.bgMusic.GetComponent<AudioSource>().Stop();
     SceneManager.LoadScene(namaScene);
    }
    public void SelectLevel(string namaScene){

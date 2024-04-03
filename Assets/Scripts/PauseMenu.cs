@@ -8,7 +8,7 @@ using UnityEngine.InputSystem;
 public class PauseMenu : MonoBehaviour
 {
     // Start is called before the first frame update
-   public static bool GameIsPaused = false;
+   public bool GameIsPaused = false;
    public GameObject PauseMenuUI;
     public GameObject rayLeft;
     public GameObject rayRight;
@@ -18,21 +18,38 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameIsPaused == false)
+        {
+            Time.timeScale = 1;
+        }
         if (showButton.action.WasPressedThisFrame()){
             if(GameIsPaused){
+                Time.timeScale = 1;
                 Resume();
+                GameIsPaused = false;
             }else{
+                Time.timeScale = 0;
                 Pause();
+                GameIsPaused = true;
+                
             }
         }
+
+        if (Input.GetKeyDown((KeyCode.Space))){
+            if(GameIsPaused){
+                Time.timeScale = 1;
+                Resume();
+                GameIsPaused = false;
+            }else{
+                Time.timeScale = 0;
+                Pause();
+                GameIsPaused = true;
+                
+            }
+        }
+
         
-        // if (Input.GetKeyDown(KeyCode.Space)){
-        //     if(GameIsPaused){
-        //         Resume();
-        //     }else{
-        //         Pause();
-        //     }
-        // }
+        
     }
 
     public void Resume(){
@@ -41,21 +58,22 @@ public class PauseMenu : MonoBehaviour
         rayRight.SetActive(false);
         weaponLeft.SetActive(true);
         weaponRight.SetActive(true);
-        Time.timeScale = 1f;
+       
         GameIsPaused = false;
     }
 
     public void Pause(){
+        
         PauseMenuUI.SetActive(true);
         rayLeft.SetActive(true);
         rayRight.SetActive(true);
         weaponLeft.SetActive(false);
         weaponRight.SetActive(false);
-        Time.timeScale = 0f;
-        GameIsPaused = true;
+        
     }
 
     public void MainMenu(){
+        BackgroundMusic.bgMusic.GetComponent<AudioSource>().Play();
         SceneManager.LoadScene("MainMenu");
         Debug.Log("loading..");
     }
@@ -64,8 +82,7 @@ public class PauseMenu : MonoBehaviour
         Debug.Log("Keluyar");
         Application.Quit();
     }
-
-    public void Restart(){
-        SceneManager.LoadScene("tes prototipe");
-    }
+    public void Restart(string namaScene){
+    SceneManager.LoadScene(namaScene);
+   }
 }
