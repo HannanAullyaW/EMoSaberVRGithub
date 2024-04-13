@@ -549,12 +549,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockPrefabs:
-  - {fileID: 6737308982975801129, guid: 0f9a8a72d787b8f418481611c16d9e4d, type: 3}
-  - {fileID: 2024081540476130225, guid: 9fa8a8b5ffb009941aebaf830c2a7ee5, type: 3}
-  - {fileID: 2932587692624402298, guid: 85acab7e63967184ba9c1674008e9a7f, type: 3}
-  - {fileID: 9175379765290392688, guid: 092e0158a22bcf049b1bd23185b76817, type: 3}
-  - {fileID: 7479405123486669558, guid: 57fc2a7f19349a2478c396360d566280, type: 3}
-  - {fileID: 801361686553885479, guid: f3c643f6b7329c141b08824028a42d26, type: 3}
+  - {fileID: 9175379765290392688, guid: 973e601f079962d44a4a41b099b49334, type: 3}
+  - {fileID: 4338932888564808556, guid: 01c5672eda64f4e4f9f90046d739fa86, type: 3}
+  - {fileID: 6737308982975801129, guid: 6e805420ca18a354289cb46453667bc2, type: 3}
+  - {fileID: 7267734920105564403, guid: 27c216d05a39f3d4f81fa919eef9d8f5, type: 3}
+  - {fileID: 7815234386541211565, guid: b49b40b0718222b4886320ef60328410, type: 3}
   scoreText: {fileID: 0}
   spawnPosZ: -20
 --- !u!4 &887948634
@@ -1129,18 +1128,11 @@ PrefabInstance:
       value: Pilihlah Ekspresi Marah
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 8289039169373664315, guid: 8a1118e2bbac7c14bb3dda03c3f7ab49, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1461809877}
+    m_RemovedGameObjects:
+    - {fileID: 4972980538695877411, guid: 8a1118e2bbac7c14bb3dda03c3f7ab49, type: 3}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a1118e2bbac7c14bb3dda03c3f7ab49, type: 3}
---- !u!224 &1279223775 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8289039169373664315, guid: 8a1118e2bbac7c14bb3dda03c3f7ab49, type: 3}
-  m_PrefabInstance: {fileID: 1279223774}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1306845209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1353,81 +1345,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1631774597003416881, guid: a54b0269d8d24e645b6db4c29e8c7771, type: 3}
   m_PrefabInstance: {fileID: 3868123383812325073}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1461809876
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1461809877}
-  - component: {fileID: 1461809879}
-  - component: {fileID: 1461809878}
-  m_Layer: 5
-  m_Name: Image (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1461809877
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461809876}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1279223775}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 193, y: -13}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1461809878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461809876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0a4a8de027738454fb619fc027d8e5d0, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1461809879
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461809876}
-  m_CullTransparentMesh: 1
 --- !u!1 &1667959432
 GameObject:
   m_ObjectHideFlags: 0
