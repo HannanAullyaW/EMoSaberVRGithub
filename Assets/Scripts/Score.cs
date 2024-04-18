@@ -7,21 +7,16 @@ using TMPro;
 public class Score : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
-    public GameOver GameOverScreen;
-    public static int score ;
+    public static int score = 0;
     // Start is called before the first frame update
-    private void Start()
+    void Start()
     {
-        score = 0;
+    
     }
 
     // Update is called once per frame
     void Update()
     {
         scoreText.text = score.ToString();
-        if(score < 0 ){
-            Time.timeScale = 0;
-            GameOverScreen.Setup();
-        }
     }
 }

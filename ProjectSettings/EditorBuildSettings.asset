@@ -21,6 +21,15 @@ EditorBuildSettings:
     path: Assets/Scenes/tes prototipe.unity
     guid: bd15a346406a0534f93cc346bd407817
   - enabled: 1
+    path: Assets/Scenes/Marah/EasyMarahScene.unity
+    guid: 82b0d1b1191f60944999a4c7069f37c1
+  - enabled: 1
+    path: Assets/Scenes/Marah/HardMarahScene.unity
+    guid: 0787ef056c75a7e47acb9633313cecf0
+  - enabled: 1
+    path: Assets/Scenes/Marah/NormalMarahScene.unity
+    guid: 4990e476f685c5a499d79a166943d872
+  - enabled: 1
     path: Assets/Scenes/Marah/TingkatMarah.unity
     guid: 3802cb5ff4a602f4dafa9de40f3db523
   - enabled: 1
@@ -71,18 +80,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Terkejut/TingkatTerkejut.unity
     guid: b83d7e77b3e18f540a673d52c3e3588c
-  - enabled: 1
-    path: Assets/Scenes/Marah/NormalMarahScene.unity
-    guid: e7e9b9ded4f3b29458e31ac353ef9420
-  - enabled: 1
-    path: Assets/Scenes/Marah/EasyMarahScene.unity
-    guid: 2b6625c312e12864381dc548f1c7d762
-  - enabled: 1
-    path: Assets/Scenes/Marah/HardMarahScene.unity
-    guid: 5852b4b8f2f74f34ca864fad966c54c5
   m_configObjects:
     Unity.XR.PICO.LivePreview.Settings: {fileID: 11400000, guid: b0724eab425ac084ab8d694e52482b31, type: 2}
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 139f2fa4db3be7546b9302da64f77f86, type: 2}
-    com.unity.input.settings: {fileID: 11400000, guid: 5dc343ec7d2ded445912b0da74272da5, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4f70f5ea7be9ad44088fcc32b796639d, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: c527f1f5fd1f5d349bc3e0d2c28daa00, type: 2}
