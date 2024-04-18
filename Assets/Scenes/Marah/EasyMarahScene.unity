@@ -728,12 +728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockPrefabs:
-  - {fileID: 6737308982975801129, guid: 6e805420ca18a354289cb46453667bc2, type: 3}
-  - {fileID: 2024081540476130225, guid: 7761a26e88be0ae4d83b729495aa2a82, type: 3}
-  - {fileID: 2932587692624402298, guid: d9e04f5f53492e24bbf80e8944302be3, type: 3}
-  - {fileID: 9175379765290392688, guid: 973e601f079962d44a4a41b099b49334, type: 3}
-  - {fileID: 7479405123486669558, guid: 1d3e4d1e83eec444a965f08a75609020, type: 3}
-  - {fileID: 801361686553885479, guid: f11b485e1addc9d4d9dd9e9781e87e43, type: 3}
+
   scoreText: {fileID: 0}
   spawnPosZ: -20
 --- !u!4 &887948634
