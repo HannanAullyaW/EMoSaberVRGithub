@@ -70,3 +70,15 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/Marah/Prefab/marah a.prefab
+Assets/Sedih/Prefab/sedih b.prefab
+Assets/Sedih/Prefab/sedih c.prefab
+Assets/Sedih/Prefab/sedih d.prefab
+Assets/Takut/Hard Takut/takutdd.prefab
+Assets/Takut/Normal Takut/takutdd.prefab
+Assets/Terkejut/Hard Terkejut 1/terkejut a.prefab
+Assets/Terkejut/Hard Terkejut 1/terkejut b (1).prefab
+Assets/Terkejut/Hard Terkejut 1/terkejut d.prefab
+Assets/Terkejut/Normal Terkejut 2/terkejut a.prefab
+Assets/Terkejut/Normal Terkejut 2/terkejut b (1).prefab
+Assets/Terkejut/Normal Terkejut 2/terkejut d.prefab
