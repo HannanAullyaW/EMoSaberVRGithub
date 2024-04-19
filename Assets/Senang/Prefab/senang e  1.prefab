@@ -22,11 +22,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b3192861b424cef4aa4ab56266822d3f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 0.7071067
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b3192861b424cef4aa4ab56266822d3f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 1
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b3192861b424cef4aa4ab56266822d3f, type: 3}
       propertyPath: m_LocalRotation.y
@@ -38,7 +38,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b3192861b424cef4aa4ab56266822d3f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b3192861b424cef4aa4ab56266822d3f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -72,9 +72,9 @@ PrefabInstance:
       addedObject: {fileID: 2573273807849922949}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b3192861b424cef4aa4ab56266822d3f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3912790852443960797}
-  m_SourcePrefab: {fileID: 100100000, guid: ad58607ae663c0c4e988203542ec4b8c, type: 3}
---- !u!1 &770936310971796320 stripped
+      addedObject: {fileID: 5012929574998259471}
+  m_SourcePrefab: {fileID: 100100000, guid: b3192861b424cef4aa4ab56266822d3f, type: 3}
+--- !u!1 &2932587692624402298 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b3192861b424cef4aa4ab56266822d3f, type: 3}
   m_PrefabInstance: {fileID: 2626668587682785835}
@@ -127,7 +127,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3912790852443960797
+--- !u!114 &5012929574998259471
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,9 +136,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2932587692624402298}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2d396ed6c33b33469d970f39c443136, type: 3}
+  m_Script: {fileID: 11500000, guid: 198775f04a36d0f48aeafeb2286279a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particle: {fileID: 4472649514786178124, guid: a758ea74fe0ccc2428004605184b12e1, type: 3}
+  particle: {fileID: 107166, guid: 847bc0ce7577e6a4992fb57041d6294b, type: 3}
   pointValue: 0
   speed: 1

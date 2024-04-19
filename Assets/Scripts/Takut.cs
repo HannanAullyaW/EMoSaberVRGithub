@@ -6,32 +6,20 @@ public class Takut : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject particle;
-    void Start()
+    private SpawnManager spawnManager;
+    public int pointValue;
+    // Start is called before the first frame update
+    public float speed = 1.0f;
+     void Start()
     {
-        
+         spawnManager = GameObject.Find("SpawnManager").GetComponent<SpawnManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        
-    if (other.gameObject.CompareTag("Takut"))
-    {
-        Destroy(other.gameObject);
-        GameObject hancur = Instantiate(particle, transform.position, particle.transform.rotation);
-        Destroy(hancur,0.5f);
-        Debug.Log("benar");
-    }
-    else {
-        Destroy(other.gameObject);
-
-    }
-
+        transform.Translate(transform.forward * speed * Time.deltaTime);
+        Destroy(gameObject, 6);
     }
 
     

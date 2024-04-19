@@ -24,27 +24,6 @@ public class Block : MonoBehaviour
         // spawnManager.UpdateScore (10, pointValue);
     }
 
-    //     private void OnTriggerEnter(Collider other)
-    // {
-
-    // }
-
-    // private void OnCollisionEnter(Collision other) 
-    // {
-        
-    //     // Destroy(gameObject);
-    //     GameObject hancur = Instantiate(particle, transform.position, particle.transform.rotation);
-    //     // Destroy(hancur,0.5f);
-    //     // Debug.Log("Hnacr");
-        
-    // if (other.gameObject.CompareTag("Marah"))
-    // {
-       
-    //     Destroy(hancur,0.5f);
-    //     Debug.Log("benar");
-    // }
-
-    // }
 
 
 }

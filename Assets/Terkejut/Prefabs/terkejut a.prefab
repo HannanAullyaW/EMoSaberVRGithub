@@ -34,11 +34,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2271f3a2f9e430649bd53f6dbd43bb87, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2271f3a2f9e430649bd53f6dbd43bb87, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 1
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2271f3a2f9e430649bd53f6dbd43bb87, type: 3}
       propertyPath: m_LocalRotation.y
@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2271f3a2f9e430649bd53f6dbd43bb87, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 180
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2271f3a2f9e430649bd53f6dbd43bb87, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -84,7 +84,7 @@ PrefabInstance:
       addedObject: {fileID: 1598518885389113869}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2271f3a2f9e430649bd53f6dbd43bb87, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2581175875849816719}
+      addedObject: {fileID: -1452787435257154661}
   m_SourcePrefab: {fileID: 100100000, guid: 2271f3a2f9e430649bd53f6dbd43bb87, type: 3}
 --- !u!1 &7815234386541211565 stripped
 GameObject:
@@ -139,7 +139,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &2581175875849816719
+--- !u!114 &-1452787435257154661
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,9 +148,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7815234386541211565}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2d396ed6c33b33469d970f39c443136, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d9d97c923aeabb40baa53a1aee1c6ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particle: {fileID: 4472649514786178124, guid: a758ea74fe0ccc2428004605184b12e1, type: 3}
+  particle: {fileID: 107166, guid: 847bc0ce7577e6a4992fb57041d6294b, type: 3}
   pointValue: 0
   speed: 1
